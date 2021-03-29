@@ -63,7 +63,7 @@ for p in phi:
 
         #criando o cone
 
-        ang_linha_centro_cone=5
+        ang_linha_centro_cone= int(sys.argv[1])
         ang_cone=5
 
         sup_ang_cone =ang_linha_centro_cone + ang_cone/2
