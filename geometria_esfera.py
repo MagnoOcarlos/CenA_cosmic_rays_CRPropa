@@ -44,7 +44,7 @@ for p in phi:
         #produto interno
         p_int_px = ( (x * data.Px) + (y * data.Py) + (z * data.Pz) )
 
-        #norma vetor linha divisada
+        #norma vetor linha de visada
         norma_p = np.sqrt( np.power(x,2) + np.power(y,2) + np.power(z,2))
 
         #Norma vetor direção de emissão
